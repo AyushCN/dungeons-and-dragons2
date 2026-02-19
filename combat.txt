@@ -1,0 +1,15 @@
+Rule: Attack Roll
+An attack roll is 1d20 + attack modifier.
+If result >= target Armor Class (AC), the attack hits.
+
+Rule: Critical Hit
+A critical hit occurs when a natural 20 is rolled on a d20 attack roll.
+When a critical hit occurs, all damage dice are doubled.
+Critical hits deal significantly more damage than normal hits.
+
+
+Rule: Damage Calculation
+Damage equals weapon damage dice plus strength modifier.
+
+Rule: Miss
+If attack roll is lower than Armor Class, the attack misses and deals no damage.

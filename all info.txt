@@ -1,0 +1,72 @@
+STATUS EFFECTS (CURRENT SYSTEM)
+
+GOOD STATUS (max 1)
+
+REGEN
+Heals HP at the start of each round.
+Flat healing. No scaling.
+Resolves before any damage-over-time effects.
+Removed at end of round when duration ends.
+
+BLOCK
+Reduces incoming attack damage after a hit.
+Does not affect hit chance.
+Does not reduce DOT damage.
+Removed at end of round when duration ends.
+
+VEIL
+Prevents new debuffs from being applied.
+Turn 1: debuff blocked 100%.
+Turn 2: 65% chance to block.
+Turn 3: 40% chance to block.
+If a debuff succeeds, Veil is removed at end of round.
+Max duration: 3 turns.
+
+FOCUS
+Attacks roll two d20 and take the higher.
+If either die is a natural 20, it is a critical hit.
+Does not increase damage directly.
+Removed at end of round when duration ends.
+
+BAD STATUS (max 1)
+
+POISON
+Deals damage at the start of each round.
+Damage scales exponentially each turn.
+Resolves after Regen.
+Affected by poison resistance.
+Removed at end of round when duration ends.
+
+BURN
+Deals flat damage at the start of each round.
+Reduces outgoing attack damage by 30%.
+No scaling.
+Removed at end of round when duration ends.
+
+FREEZE
+Deals flat damage at the start of each round.
+Forces the target to act last in the round based on chance:
+Turn 1: guaranteed last.
+Turn 2: 80% chance last.
+Turn 3: 70% chance last.
+Removed at end of round when duration ends.
+
+STUN
+Prevents the target from acting on their turn.
+Turn 1: guaranteed skip.
+Turn 2: 30% chance to act.
+Turn 3: 40% chance to act.
+Turn 4: 50% chance to act.
+Chance increases by 10% each turn until recovery.
+Removed immediately on successful recovery.
+
+GLOBAL RULES (still plain text)
+
+Only one good and one bad status allowed at a time.
+Statuses do not replace each other.
+If a slot is occupied, new status application fails.
+Statuses trigger before turns begin.
+Statuses are removed only at end of round unless specified otherwise.
+
+
+
