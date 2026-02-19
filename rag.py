@@ -20,10 +20,12 @@ def load_rule_chunks():
             content = f.read()
 
             # Split rules by blank line
+            # Split rules by blank line
             parts = content.split("\n\n")
             for part in parts:
                 if part.strip():
                     chunks.append(part.strip())
+
 
     return chunks
 
